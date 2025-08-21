@@ -1,10 +1,10 @@
-# 🌌 Simulación del Problema de los Tres Cuerpos
+#  Simulación del Problema de los Tres Cuerpos
 
 Este repositorio contiene una simulación numérica y visualización animada del **problema de los tres cuerpos**, un problema clásico de la mecánica celeste que describe el movimiento de tres masas bajo la influencia de la **gravitación universal**.
 
 ---
 
-## 📖 Introducción
+##  Introducción
 
 El **problema de los tres cuerpos** busca describir cómo interactúan tres cuerpos en el espacio debido a la gravedad.  
 A diferencia del problema de dos cuerpos (que tiene solución exacta gracias a las leyes de Kepler y Newton), el de tres cuerpos **no posee una solución analítica general**.  
@@ -15,7 +15,7 @@ En esta implementación se utilizan:
 - **Integración numérica** para aproximar trayectorias.
 - **Visualización animada** con `matplotlib`.
 
-## ⚙️ Condiciones iniciales
+##  Condiciones iniciales
 
 Para esta simulación se eligieron valores **hipotéticos y simplificados** de masas, posiciones y velocidades (no corresponden a un sistema real de Sol-Tierra-Luna, sino que buscan mostrar el caos del sistema):
 
@@ -36,13 +36,17 @@ Para esta simulación se eligieron valores **hipotéticos y simplificados** de m
 
 Estas condiciones iniciales generan trayectorias complejas y muestran cómo pequeñas diferencias en valores pueden producir comportamientos muy distintos.
 
-##Análisis
+## Análisis
 La simulación muestra que, aunque las leyes que rigen el movimiento de los tres cuerpos son deterministas, el sistema exhibe un comportamiento caótico y difícil de predecir a largo plazo. Las trayectorias no son periódicas y pequeñas variaciones en las condiciones iniciales generan resultados muy distintos, lo que confirma la sensibilidad al estado inicial.
 
 En conclusión, el problema de los tres cuerpos ilustra la complejidad de la mecánica celeste y cómo fenómenos aparentemente simples pueden dar lugar a dinámicas impredecibles. Esta simulación, aunque simplificada, refleja la belleza matemática y el carácter caótico de los sistemas gravitacionales.
 
-## ⚙️ Requisitos e Instalación
+## Requisitos e Instalación
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tuusuario/tres-cuerpos.git
    cd tres-cuerpos
+2. Instala dependencias:
+  Dependencias principales:
+    - numpy
+    - matplotlib
